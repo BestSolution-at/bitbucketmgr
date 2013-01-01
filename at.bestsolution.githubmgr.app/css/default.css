@@ -1,0 +1,97 @@
+/*
+ * Login Styles
+ */
+.githubWindow {
+	-fx-background-image: url("icons/default/wallpaper.png");
+	-fx-padding: 15px;
+	-fx-border-radius: 5px;
+	-fx-border-color: white;
+	-fx-border-width: 3px;
+}
+
+.githubWindow .label {
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 15pt;
+}
+
+.githubWindow .textfield {
+	-fx-font-weight: bold;
+	-fx-font-size: 15pt;
+}
+
+.githubWindow GridPane {
+	-fx-padding: 5px;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+}
+
+.h1 {
+	-fx-font-size: 30pt !important;
+	-fx-font-weight: bold; 
+}
+
+/*
+ * Application Styles
+ */
+
+.MTrimmedWindow {
+	-fx-background-image: url("icons/default/wallpaper.png");
+}
+
+.MPart {
+	-fx-background-color: #e3e3e3;
+}
+
+/*
+ * Content styles 
+ */
+.projectDialogArea {
+	-fx-spacing: 10px;
+}
+
+.projectItemList {
+	-fx-padding: 15px;
+}
+
+.projecItem {
+	-fx-border-color: #7b7b7b;
+	-fx-border-width: 1px;
+	-fx-border-radius: 6px;
+	-fx-padding: 10px;
+	-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, white 0%, #e9e9e9 100%);
+	-fx-background-radius: 6px;
+}
+
+.projecItem.activeItem {
+	-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, white 0%, #eceed2 100%);
+}
+
+.projectInfoArea {
+	-fx-padding: 0 10 0 10;
+}
+
+.projectTitle {
+	-fx-font-weight: bold;
+	-fx-padding: 0 0 10 0;
+}
+
+.projectDescription {
+	-fx-text-fill: #7b7b7b;
+	-fx-font-style: italic;
+}
+
+/*
+ * Runtime styles
+ */
+.titleDialog_Title {
+	-fx-font-weight: bold;
+}
+
+.titleDialog_Message {
+	-fx-padding: 0 0 0 5;
+}
+
+.titleDialog_MessageArea {
+	-fx-spacing: 5px;
+}

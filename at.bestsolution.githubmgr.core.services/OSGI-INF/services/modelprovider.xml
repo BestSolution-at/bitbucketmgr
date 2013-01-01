@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.githubmgr.core.services.modelprovider">
+   <implementation class="at.bestsolution.githubmgr.core.services.impl.XMIWorkspaceModelProvider"/>
+   <service>
+      <provide interface="at.bestsolution.githubmgr.core.services.WorkspaceModelProvider"/>
+   </service>
+   <reference bind="setLoggerFactory" cardinality="1..1" interface="at.bestsolution.efxclipse.runtime.core.log.LoggerFactory" name="LoggerFactory" policy="static" unbind="unsetLoggerFactory"/>
+</scr:component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension id="product" point="org.eclipse.core.runtime.products">
+	<product name="Github Manager" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" >
+		<property name="appName" value="Github Manager" />
+		
+		<property name="applicationXMI" value="at.bestsolution.githubmgr.app/Application.e4xmi" />
+		
+		<property name="cssTheme" value="theme.default" />
+  <property
+        name="lifeCycleURI"
+        value="bundleclass://at.bestsolution.githubmgr.app/at.bestsolution.githubmgr.app.LifecycleHandler">
+  </property>
+		
+	</product>
+	
+</extension>
+<extension  point="at.bestsolution.efxclipse.runtime.theme">
+	<theme id="theme.default" basestylesheet="css/default.css" />
+	
+</extension>
+</plugin>
