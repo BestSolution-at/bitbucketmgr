@@ -5,11 +5,9 @@ import javafx.scene.layout.BorderPane;
 
 import javax.annotation.PostConstruct;
 
-public class ProjectMainView {
-	
+public class ProjectNavigation {
 	@PostConstruct
 	void init(BorderPane pane) {
-		pane.setTop(new Label("MAIN VIEW"));
+		pane.setTop(new Label("NAVI"));
 	}
-	
 }

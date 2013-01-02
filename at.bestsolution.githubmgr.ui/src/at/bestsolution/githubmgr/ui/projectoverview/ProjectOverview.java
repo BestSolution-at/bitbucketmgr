@@ -22,12 +22,21 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
+import javafx.util.Callback;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.e4.core.contexts.IEclipseContext;
+import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.UIEventTopic;
+
+import at.bestsolution.githubmgr.core.EventConstants;
+import at.bestsolution.githubmgr.core.services.WorkspaceModelProvider;
+import at.bestsolution.githubmgr.model.githubmgr.Project;
+import at.bestsolution.githubmgr.model.githubmgr.Workspace;
 
 import com.sun.javafx.scene.control.skin.ScrollPaneSkin;
 
@@ -48,7 +57,7 @@ public class ProjectOverview {
 	}
 	
 	@PostConstruct
-	void init(BorderPane pane, IEclipseContext context) {
+	void init(BorderPane pane, IEclipseContext context, WorkspaceModelProvider wsModelProvider) {
 		scroll = new ScrollPane();
 		scroll.setFitToWidth(true);
 		box = new VBox(10);
@@ -82,31 +91,51 @@ public class ProjectOverview {
 			}
 		});
 		
-		for( int i = 0; i < 10; i++ ) {
-			final ProjectItem item = new ProjectItem(null);
-			item.init(box);
-			item.activeProperty().addListener(new ChangeListener<Boolean>() {
-
-				@Override
-				public void changed(
-						ObservableValue<? extends Boolean> observable,
-						Boolean oldValue, Boolean newValue) {
-					if( newValue ) {
-						Bounds bounds = scroll.sceneToLocal(item.node().localToScene(item.node().getLayoutBounds()));
-						((ScrollPaneSkin)scroll.getSkin()).onTraverse(item.node(), bounds);
-						for( ProjectItem i : items ) {
-							if( i != item ) {
-								i.activeProperty().set(false);
-							}
-						}
-					}
-				}
-			});
-			items.add(item);
+		Workspace ws = wsModelProvider.getWorkspace(new NullProgressMonitor());
+		
+		for( Project p : ws.getProjectList() ) {
+			items.add(createProjectItem(p));
 		}
 		
 		scroll.setContent(box);
 		pane.setCenter(scroll);
+	}
+	
+	@Inject
+	@Optional
+	public void handleProjectAdd(@UIEventTopic(EventConstants.PROJECT_TOPIC_NEW) Project newProject) {
+		items.add(createProjectItem(newProject));
+	}
+	
+	private ProjectItem createProjectItem(Project p) {
+		final ProjectItem item = new ProjectItem(p);
+		item.init(box);
+		item.activeProperty().addListener(new ChangeListener<Boolean>() {
+
+			@Override
+			public void changed(
+					ObservableValue<? extends Boolean> observable,
+					Boolean oldValue, Boolean newValue) {
+				if( newValue ) {
+					Bounds bounds = scroll.sceneToLocal(item.node().localToScene(item.node().getLayoutBounds()));
+					((ScrollPaneSkin)scroll.getSkin()).onTraverse(item.node(), bounds);
+					for( ProjectItem i : items ) {
+						if( i != item ) {
+							i.activeProperty().set(false);
+						}
+					}
+				}
+			}
+		});
+		item.setOpenProjectCallback(new Callback<Project, Void>() {
+			
+			@Override
+			public Void call(Project param) {
+				controller.openProject(param);
+				return null;
+			}
+		});
+		return item;
 	}
 	
 	void moveUp() {

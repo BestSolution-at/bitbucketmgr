@@ -13,6 +13,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
+import javafx.util.Callback;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
@@ -26,6 +27,8 @@ class ProjectItem {
 	private BooleanProperty active = new SimpleBooleanProperty(this,"active",false);
 
 	private BorderPane container;
+	
+	private Callback<Project, Void> openProjectCallback;
 	
 	@Inject
 	public ProjectItem(Project project) {
@@ -54,7 +57,7 @@ class ProjectItem {
 		{
 			VBox box = new VBox();
 			box.getStyleClass().add("projectInfoArea");
-			box.getChildren().add(LabelBuilder.create().styleClass("projectTitle").text("My Project").build());
+			box.getChildren().add(LabelBuilder.create().styleClass("projectTitle").text(project.getName()).build());
 			box.getChildren().add(LabelBuilder.create().styleClass("projectDescription").text("No Description").build());
 			container.setCenter(box);		
 		}
@@ -63,6 +66,15 @@ class ProjectItem {
 			ImageView view = new ImageView(new Image(getClass().getClassLoader().getResource("/icons/arrow-right.png").toExternalForm()));
 			BorderPane.setAlignment(view, Pos.CENTER_RIGHT);
 			container.setRight(view);
+			view.setOnMousePressed(new EventHandler<MouseEvent>() {
+
+				@Override
+				public void handle(MouseEvent event) {
+					if( openProjectCallback != null ) {
+						openProjectCallback.call(project);
+					}
+				}
+			});
 		}
 		
 		parent.getChildren().add(container);
@@ -91,5 +103,10 @@ class ProjectItem {
 
 	public Node node() {
 		return container;
+	}
+	
+	public void setOpenProjectCallback(
+			Callback<Project, Void> openProjectCallback) {
+		this.openProjectCallback = openProjectCallback;
 	}
 }
