@@ -13,15 +13,39 @@
       </children>
     </mainMenu>
   </children>
+  <handlers xmi:id="_fvdmwFRhEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.handler.0" contributionURI="bundleclass://at.bestsolution.githubmgr.core/at.bestsolution.githubmgr.core.handler.CreateProject" command="_YpebgFRhEeK9ZYX2gZvvig"/>
   <rootContext xmi:id="_59KgUFLNEeKUG9hwcDgFzw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_59KgUlLNEeKUG9hwcDgFzw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_59KgU1LNEeKUG9hwcDgFzw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <snippets xsi:type="advanced:Perspective" xmi:id="_2yMzIFQgEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.perspective.project.template"/>
+  <snippets xsi:type="advanced:Perspective" xmi:id="_2yMzIFQgEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.perspective.project.template">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_vrzk4FT0EeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.partsashcontainer.0" horizontal="true">
+      <tags>fx_fixedLayout</tags>
+      <children xsi:type="basic:Part" xmi:id="_xphOwFT0EeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.part.2" contributionURI="bundleclass://at.bestsolution.githubmgr.ui/at.bestsolution.githubmgr.ui.project.ProjectNavigation">
+        <persistedState key="fx_layout_width" value="100"/>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_5je_MFT1EeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.partsashcontainer.1">
+        <persistedState key="fx_layout_grab_horizontal" value="true"/>
+        <persistedState key="fx_layout_grab_vertical" value="true"/>
+        <tags>fx_fixedLayout</tags>
+        <children xsi:type="basic:Part" xmi:id="_629ZQFT1EeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.part.3" contributionURI="bundleclass://at.bestsolution.githubmgr.ui/at.bestsolution.githubmgr.ui.project.ProjectBreadcrumb">
+          <persistedState key="fx_layout_height" value="50"/>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_GJ77oFTxEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.part.1" contributionURI="bundleclass://at.bestsolution.githubmgr.ui/at.bestsolution.githubmgr.ui.project.ProjectMainView">
+          <persistedState key="fx_layout_grab_horizontal" value="true"/>
+          <persistedState key="fx_layout_grab_vertical" value="true"/>
+        </children>
+      </children>
+    </children>
+  </snippets>
+  <commands xmi:id="_YpebgFRhEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.command.project.create" commandName="Create Project">
+    <parameters xmi:id="_iiiyYFRhEeK9ZYX2gZvvig" elementId="projectName" name="Name of project" optional="false"/>
+  </commands>
   <addons xmi:id="_59KgVFLNEeKUG9hwcDgFzw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_59KgVVLNEeKUG9hwcDgFzw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_59KgVlLNEeKUG9hwcDgFzw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
   <addons xmi:id="_59KgV1LNEeKUG9hwcDgFzw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
   <addons xmi:id="_59KgWFLNEeKUG9hwcDgFzw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
   <addons xmi:id="_59KgWVLNEeKUG9hwcDgFzw" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_oRGjUFTzEeK9ZYX2gZvvig" elementId="at.bestsolution.githubmgr.app.addon.0" contributionURI="bundleclass://at.bestsolution.githubmgr.app/at.bestsolution.githubmgr.app.PerspectiveAnimationAddon"/>
 </application:Application>
