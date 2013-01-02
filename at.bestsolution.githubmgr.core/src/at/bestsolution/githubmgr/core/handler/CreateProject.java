@@ -27,6 +27,7 @@ public class CreateProject {
 		//TODO Use progress service
 		Workspace ws = modelProvider.getWorkspace(new NullProgressMonitor());
 		ws.getProjectList().add(p);
+		modelProvider.persist(new NullProgressMonitor());
 		if( broker != null ) {
 			broker.send(EventConstants.PROJECT_TOPIC_NEW, p);
 		}
