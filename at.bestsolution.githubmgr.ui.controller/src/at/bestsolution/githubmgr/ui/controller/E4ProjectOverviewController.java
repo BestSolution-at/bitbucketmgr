@@ -40,7 +40,9 @@ public class E4ProjectOverviewController extends ProjectOverviewController {
 			}
 		}
 		
-		modelService.cloneSnippet(application, "at.bestsolution.githubmgr.app.perspective.project.template", window);
+		MPerspective p = (MPerspective) modelService.cloneSnippet(application, "at.bestsolution.githubmgr.app.perspective.project.template", window);
+		s.getChildren().add(p);
+		partService.switchPerspective(p);
 	}
 	
 }

@@ -5,7 +5,9 @@ Bundle-SymbolicName: at.bestsolution.githubmgr.ui.handler
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.eclipse.e4.core.di;bundle-version="1.2.0",
- at.bestsolution.efxclipse.runtime.dialogs;bundle-version="0.8.0"
+ at.bestsolution.efxclipse.runtime.dialogs;bundle-version="0.8.0",
+ org.eclipse.e4.core.commands;bundle-version="0.10.1",
+ org.eclipse.core.commands;bundle-version="3.6.1"
 Import-Package: javafx.animation;version="2.2.0",
  javafx.application;version="2.2.0",
  javafx.beans;version="2.2.0",
