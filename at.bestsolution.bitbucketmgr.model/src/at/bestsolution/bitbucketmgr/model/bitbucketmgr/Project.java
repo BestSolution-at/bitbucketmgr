@@ -28,7 +28,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getProject()
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject()
  * @model
  * @generated
  */
@@ -43,7 +43,7 @@ public interface Project extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getProject_Name()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_Name()
 	 * @model
 	 * @generated
 	 */
@@ -69,7 +69,7 @@ public interface Project extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Repository List</em>' containment reference list.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getProject_RepositoryList()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_RepositoryList()
 	 * @model containment="true"
 	 * @generated
 	 */
@@ -85,7 +85,7 @@ public interface Project extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Icon</em>' attribute.
 	 * @see #setIcon(byte[])
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getProject_Icon()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_Icon()
 	 * @model
 	 * @generated
 	 */

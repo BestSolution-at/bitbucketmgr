@@ -10,7 +10,7 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
 
 import org.eclipse.emf.common.notify.Notification;
@@ -91,7 +91,7 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return GithubmgrPackage.Literals.REPOSITORY;
+		return BitbucketmgrPackage.Literals.REPOSITORY;
 	}
 
 	/**
@@ -112,7 +112,7 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 		String oldOwner = owner;
 		owner = newOwner;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GithubmgrPackage.REPOSITORY__OWNER, oldOwner, owner));
+			eNotify(new ENotificationImpl(this, Notification.SET, BitbucketmgrPackage.REPOSITORY__OWNER, oldOwner, owner));
 	}
 
 	/**
@@ -133,7 +133,7 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GithubmgrPackage.REPOSITORY__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, BitbucketmgrPackage.REPOSITORY__NAME, oldName, name));
 	}
 
 	/**
@@ -144,9 +144,9 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case GithubmgrPackage.REPOSITORY__OWNER:
+			case BitbucketmgrPackage.REPOSITORY__OWNER:
 				return getOwner();
-			case GithubmgrPackage.REPOSITORY__NAME:
+			case BitbucketmgrPackage.REPOSITORY__NAME:
 				return getName();
 		}
 		return super.eGet(featureID, resolve, coreType);
@@ -160,10 +160,10 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case GithubmgrPackage.REPOSITORY__OWNER:
+			case BitbucketmgrPackage.REPOSITORY__OWNER:
 				setOwner((String)newValue);
 				return;
-			case GithubmgrPackage.REPOSITORY__NAME:
+			case BitbucketmgrPackage.REPOSITORY__NAME:
 				setName((String)newValue);
 				return;
 		}
@@ -178,10 +178,10 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.REPOSITORY__OWNER:
+			case BitbucketmgrPackage.REPOSITORY__OWNER:
 				setOwner(OWNER_EDEFAULT);
 				return;
-			case GithubmgrPackage.REPOSITORY__NAME:
+			case BitbucketmgrPackage.REPOSITORY__NAME:
 				setName(NAME_EDEFAULT);
 				return;
 		}
@@ -196,9 +196,9 @@ public class RepositoryImpl extends EObjectImpl implements Repository {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.REPOSITORY__OWNER:
+			case BitbucketmgrPackage.REPOSITORY__OWNER:
 				return OWNER_EDEFAULT == null ? owner != null : !OWNER_EDEFAULT.equals(owner);
-			case GithubmgrPackage.REPOSITORY__NAME:
+			case BitbucketmgrPackage.REPOSITORY__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		}
 		return super.eIsSet(featureID);

@@ -17,7 +17,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
  * @generated
  */
 public interface BitbucketmgrFactory extends EFactory {
@@ -27,7 +27,7 @@ public interface BitbucketmgrFactory extends EFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	BitbucketmgrFactory eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrFactoryImpl.init();
+	BitbucketmgrFactory eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrFactoryImpl.init();
 
 	/**
 	 * Returns a new object of class '<em>Workspace</em>'.
@@ -63,6 +63,6 @@ public interface BitbucketmgrFactory extends EFactory {
 	 * @return the package supported by this factory.
 	 * @generated
 	 */
-	GithubmgrPackage getGithubmgrPackage();
+	BitbucketmgrPackage getBitbucketmgrPackage();
 
-} //GithubmgrFactory
+} //BitbucketmgrFactory

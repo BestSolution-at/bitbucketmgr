@@ -26,7 +26,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getWorkspace()
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getWorkspace()
  * @model
  * @generated
  */
@@ -41,7 +41,7 @@ public interface Workspace extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Project List</em>' containment reference list.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getWorkspace_ProjectList()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getWorkspace_ProjectList()
 	 * @model containment="true"
 	 * @generated
 	 */

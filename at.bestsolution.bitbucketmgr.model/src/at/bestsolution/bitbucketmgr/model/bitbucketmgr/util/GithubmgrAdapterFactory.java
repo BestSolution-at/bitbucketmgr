@@ -24,7 +24,7 @@ import org.eclipse.emf.ecore.EObject;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
  * @generated
  */
 public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
@@ -34,7 +34,7 @@ public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected static GithubmgrPackage modelPackage;
+	protected static BitbucketmgrPackage modelPackage;
 
 	/**
 	 * Creates an instance of the adapter factory.
@@ -44,7 +44,7 @@ public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
 	 */
 	public GithubmgrAdapterFactory() {
 		if (modelPackage == null) {
-			modelPackage = GithubmgrPackage.eINSTANCE;
+			modelPackage = BitbucketmgrPackage.eINSTANCE;
 		}
 	}
 

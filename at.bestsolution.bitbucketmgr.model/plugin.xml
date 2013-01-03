@@ -8,9 +8,9 @@
 
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
-            uri="http://www.bestsolution.at/githubmgr"
-            class="at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage"
-            genModel="model/Githubmgr.genmodel"/>
+            uri="http://www.bestsolution.at/bitbucketmgr"
+            class="at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage"
+            genModel="model/Bitbucketmgr.genmodel"/>
    </extension>
 
 </plugin>

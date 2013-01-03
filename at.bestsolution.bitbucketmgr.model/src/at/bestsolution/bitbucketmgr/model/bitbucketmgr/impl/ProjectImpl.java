@@ -10,7 +10,7 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
 
@@ -112,7 +112,7 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return GithubmgrPackage.Literals.PROJECT;
+		return BitbucketmgrPackage.Literals.PROJECT;
 	}
 
 	/**
@@ -133,7 +133,7 @@ public class ProjectImpl extends EObjectImpl implements Project {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GithubmgrPackage.PROJECT__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, BitbucketmgrPackage.PROJECT__NAME, oldName, name));
 	}
 
 	/**
@@ -143,7 +143,7 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	 */
 	public EList<Repository> getRepositoryList() {
 		if (repositoryList == null) {
-			repositoryList = new EObjectContainmentEList<Repository>(Repository.class, this, GithubmgrPackage.PROJECT__REPOSITORY_LIST);
+			repositoryList = new EObjectContainmentEList<Repository>(Repository.class, this, BitbucketmgrPackage.PROJECT__REPOSITORY_LIST);
 		}
 		return repositoryList;
 	}
@@ -166,7 +166,7 @@ public class ProjectImpl extends EObjectImpl implements Project {
 		byte[] oldIcon = icon;
 		icon = newIcon;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, GithubmgrPackage.PROJECT__ICON, oldIcon, icon));
+			eNotify(new ENotificationImpl(this, Notification.SET, BitbucketmgrPackage.PROJECT__ICON, oldIcon, icon));
 	}
 
 	/**
@@ -177,7 +177,7 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case GithubmgrPackage.PROJECT__REPOSITORY_LIST:
+			case BitbucketmgrPackage.PROJECT__REPOSITORY_LIST:
 				return ((InternalEList<?>)getRepositoryList()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
@@ -191,11 +191,11 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case GithubmgrPackage.PROJECT__NAME:
+			case BitbucketmgrPackage.PROJECT__NAME:
 				return getName();
-			case GithubmgrPackage.PROJECT__REPOSITORY_LIST:
+			case BitbucketmgrPackage.PROJECT__REPOSITORY_LIST:
 				return getRepositoryList();
-			case GithubmgrPackage.PROJECT__ICON:
+			case BitbucketmgrPackage.PROJECT__ICON:
 				return getIcon();
 		}
 		return super.eGet(featureID, resolve, coreType);
@@ -210,14 +210,14 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case GithubmgrPackage.PROJECT__NAME:
+			case BitbucketmgrPackage.PROJECT__NAME:
 				setName((String)newValue);
 				return;
-			case GithubmgrPackage.PROJECT__REPOSITORY_LIST:
+			case BitbucketmgrPackage.PROJECT__REPOSITORY_LIST:
 				getRepositoryList().clear();
 				getRepositoryList().addAll((Collection<? extends Repository>)newValue);
 				return;
-			case GithubmgrPackage.PROJECT__ICON:
+			case BitbucketmgrPackage.PROJECT__ICON:
 				setIcon((byte[])newValue);
 				return;
 		}
@@ -232,13 +232,13 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.PROJECT__NAME:
+			case BitbucketmgrPackage.PROJECT__NAME:
 				setName(NAME_EDEFAULT);
 				return;
-			case GithubmgrPackage.PROJECT__REPOSITORY_LIST:
+			case BitbucketmgrPackage.PROJECT__REPOSITORY_LIST:
 				getRepositoryList().clear();
 				return;
-			case GithubmgrPackage.PROJECT__ICON:
+			case BitbucketmgrPackage.PROJECT__ICON:
 				setIcon(ICON_EDEFAULT);
 				return;
 		}
@@ -253,11 +253,11 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.PROJECT__NAME:
+			case BitbucketmgrPackage.PROJECT__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-			case GithubmgrPackage.PROJECT__REPOSITORY_LIST:
+			case BitbucketmgrPackage.PROJECT__REPOSITORY_LIST:
 				return repositoryList != null && !repositoryList.isEmpty();
-			case GithubmgrPackage.PROJECT__ICON:
+			case BitbucketmgrPackage.PROJECT__ICON:
 				return ICON_EDEFAULT == null ? icon != null : !ICON_EDEFAULT.equals(icon);
 		}
 		return super.eIsSet(featureID);

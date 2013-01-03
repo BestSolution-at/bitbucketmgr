@@ -10,8 +10,8 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrFactory;
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrFactory;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
@@ -29,7 +29,7 @@ import org.eclipse.emf.ecore.impl.EPackageImpl;
  * <!-- end-user-doc -->
  * @generated
  */
-public class GithubmgrPackageImpl extends EPackageImpl implements GithubmgrPackage {
+public class BitbucketmgrPackageImpl extends EPackageImpl implements BitbucketmgrPackage {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -66,8 +66,8 @@ public class GithubmgrPackageImpl extends EPackageImpl implements GithubmgrPacka
 	 * @see #init()
 	 * @generated
 	 */
-	private GithubmgrPackageImpl() {
-		super(eNS_URI, GithubmgrFactory.eINSTANCE);
+	private BitbucketmgrPackageImpl() {
+		super(eNS_URI, BitbucketmgrFactory.eINSTANCE);
 	}
 
 	/**
@@ -89,11 +89,11 @@ public class GithubmgrPackageImpl extends EPackageImpl implements GithubmgrPacka
 	 * @see #initializePackageContents()
 	 * @generated
 	 */
-	public static GithubmgrPackage init() {
-		if (isInited) return (GithubmgrPackage)EPackage.Registry.INSTANCE.getEPackage(GithubmgrPackage.eNS_URI);
+	public static BitbucketmgrPackage init() {
+		if (isInited) return (BitbucketmgrPackage)EPackage.Registry.INSTANCE.getEPackage(BitbucketmgrPackage.eNS_URI);
 
 		// Obtain or create and register package
-		GithubmgrPackageImpl theGithubmgrPackage = (GithubmgrPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof GithubmgrPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new GithubmgrPackageImpl());
+		BitbucketmgrPackageImpl theGithubmgrPackage = (BitbucketmgrPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof BitbucketmgrPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new BitbucketmgrPackageImpl());
 
 		isInited = true;
 
@@ -108,7 +108,7 @@ public class GithubmgrPackageImpl extends EPackageImpl implements GithubmgrPacka
 
   
 		// Update the registry and return the package
-		EPackage.Registry.INSTANCE.put(GithubmgrPackage.eNS_URI, theGithubmgrPackage);
+		EPackage.Registry.INSTANCE.put(BitbucketmgrPackage.eNS_URI, theGithubmgrPackage);
 		return theGithubmgrPackage;
 	}
 
@@ -198,8 +198,8 @@ public class GithubmgrPackageImpl extends EPackageImpl implements GithubmgrPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GithubmgrFactory getGithubmgrFactory() {
-		return (GithubmgrFactory)getEFactoryInstance();
+	public BitbucketmgrFactory getGithubmgrFactory() {
+		return (BitbucketmgrFactory)getEFactoryInstance();
 	}
 
 	/**

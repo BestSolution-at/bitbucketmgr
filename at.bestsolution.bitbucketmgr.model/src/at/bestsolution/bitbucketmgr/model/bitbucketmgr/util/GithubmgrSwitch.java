@@ -27,7 +27,7 @@ import org.eclipse.emf.ecore.util.Switch;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
  * @generated
  */
 public class GithubmgrSwitch<T> extends Switch<T> {
@@ -37,7 +37,7 @@ public class GithubmgrSwitch<T> extends Switch<T> {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected static GithubmgrPackage modelPackage;
+	protected static BitbucketmgrPackage modelPackage;
 
 	/**
 	 * Creates an instance of the switch.

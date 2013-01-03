@@ -10,7 +10,7 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
@@ -68,7 +68,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return GithubmgrPackage.Literals.WORKSPACE;
+		return BitbucketmgrPackage.Literals.WORKSPACE;
 	}
 
 	/**
@@ -78,7 +78,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	 */
 	public EList<Project> getProjectList() {
 		if (projectList == null) {
-			projectList = new EObjectContainmentEList<Project>(Project.class, this, GithubmgrPackage.WORKSPACE__PROJECT_LIST);
+			projectList = new EObjectContainmentEList<Project>(Project.class, this, BitbucketmgrPackage.WORKSPACE__PROJECT_LIST);
 		}
 		return projectList;
 	}
@@ -91,7 +91,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case GithubmgrPackage.WORKSPACE__PROJECT_LIST:
+			case BitbucketmgrPackage.WORKSPACE__PROJECT_LIST:
 				return ((InternalEList<?>)getProjectList()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
@@ -105,7 +105,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case GithubmgrPackage.WORKSPACE__PROJECT_LIST:
+			case BitbucketmgrPackage.WORKSPACE__PROJECT_LIST:
 				return getProjectList();
 		}
 		return super.eGet(featureID, resolve, coreType);
@@ -120,7 +120,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case GithubmgrPackage.WORKSPACE__PROJECT_LIST:
+			case BitbucketmgrPackage.WORKSPACE__PROJECT_LIST:
 				getProjectList().clear();
 				getProjectList().addAll((Collection<? extends Project>)newValue);
 				return;
@@ -136,7 +136,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.WORKSPACE__PROJECT_LIST:
+			case BitbucketmgrPackage.WORKSPACE__PROJECT_LIST:
 				getProjectList().clear();
 				return;
 		}
@@ -151,7 +151,7 @@ public class WorkspaceImpl extends EObjectImpl implements Workspace {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case GithubmgrPackage.WORKSPACE__PROJECT_LIST:
+			case BitbucketmgrPackage.WORKSPACE__PROJECT_LIST:
 				return projectList != null && !projectList.isEmpty();
 		}
 		return super.eIsSet(featureID);

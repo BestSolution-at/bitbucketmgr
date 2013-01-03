@@ -26,7 +26,7 @@ import org.eclipse.emf.ecore.EReference;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrFactory
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrFactory
  * @model kind="package"
  * @generated
  */
@@ -61,14 +61,14 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	GithubmgrPackage eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrPackageImpl.init();
+	BitbucketmgrPackage eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl.init();
 
 	/**
 	 * The meta object id for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getWorkspace()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
 	 * @generated
 	 */
 	int WORKSPACE = 0;
@@ -96,7 +96,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getProject()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getProject()
 	 * @generated
 	 */
 	int PROJECT = 1;
@@ -142,7 +142,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getRepository()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getRepository()
 	 * @generated
 	 */
 	int REPOSITORY = 2;
@@ -278,7 +278,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * @return the factory that creates the instances of the model.
 	 * @generated
 	 */
-	GithubmgrFactory getGithubmgrFactory();
+	BitbucketmgrFactory getBitbucketmgrFactory();
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -298,7 +298,7 @@ public interface BitbucketmgrPackage extends EPackage {
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getWorkspace()
+		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
 		 * @generated
 		 */
 		EClass WORKSPACE = eINSTANCE.getWorkspace();
@@ -316,7 +316,7 @@ public interface BitbucketmgrPackage extends EPackage {
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getProject()
+		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getProject()
 		 * @generated
 		 */
 		EClass PROJECT = eINSTANCE.getProject();
@@ -350,7 +350,7 @@ public interface BitbucketmgrPackage extends EPackage {
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl#getRepository()
+		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getRepository()
 		 * @generated
 		 */
 		EClass REPOSITORY = eINSTANCE.getRepository();
@@ -373,4 +373,4 @@ public interface BitbucketmgrPackage extends EPackage {
 
 	}
 
-} //GithubmgrPackage
+} //BitbucketmgrPackage

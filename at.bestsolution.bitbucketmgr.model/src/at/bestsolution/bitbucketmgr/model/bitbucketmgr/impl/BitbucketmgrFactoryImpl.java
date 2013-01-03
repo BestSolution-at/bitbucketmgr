@@ -26,16 +26,16 @@ import org.eclipse.emf.ecore.plugin.EcorePlugin;
  * <!-- end-user-doc -->
  * @generated
  */
-public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFactory {
+public class BitbucketmgrFactoryImpl extends EFactoryImpl implements BitbucketmgrFactory {
 	/**
 	 * Creates the default factory implementation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public static GithubmgrFactory init() {
+	public static BitbucketmgrFactory init() {
 		try {
-			GithubmgrFactory theGithubmgrFactory = (GithubmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/githubmgr"); 
+			BitbucketmgrFactory theGithubmgrFactory = (BitbucketmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/githubmgr"); 
 			if (theGithubmgrFactory != null) {
 				return theGithubmgrFactory;
 			}
@@ -43,7 +43,7 @@ public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFacto
 		catch (Exception exception) {
 			EcorePlugin.INSTANCE.log(exception);
 		}
-		return new GithubmgrFactoryImpl();
+		return new BitbucketmgrFactoryImpl();
 	}
 
 	/**
@@ -52,7 +52,7 @@ public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFacto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GithubmgrFactoryImpl() {
+	public BitbucketmgrFactoryImpl() {
 		super();
 	}
 
@@ -64,9 +64,9 @@ public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFacto
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case GithubmgrPackage.WORKSPACE: return createWorkspace();
-			case GithubmgrPackage.PROJECT: return createProject();
-			case GithubmgrPackage.REPOSITORY: return createRepository();
+			case BitbucketmgrPackage.WORKSPACE: return createWorkspace();
+			case BitbucketmgrPackage.PROJECT: return createProject();
+			case BitbucketmgrPackage.REPOSITORY: return createRepository();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -107,8 +107,8 @@ public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFacto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GithubmgrPackage getGithubmgrPackage() {
-		return (GithubmgrPackage)getEPackage();
+	public BitbucketmgrPackage getGithubmgrPackage() {
+		return (BitbucketmgrPackage)getEPackage();
 	}
 
 	/**
@@ -118,8 +118,8 @@ public class GithubmgrFactoryImpl extends EFactoryImpl implements GithubmgrFacto
 	 * @generated
 	 */
 	@Deprecated
-	public static GithubmgrPackage getPackage() {
-		return GithubmgrPackage.eINSTANCE;
+	public static BitbucketmgrPackage getPackage() {
+		return BitbucketmgrPackage.eINSTANCE;
 	}
 
 } //GithubmgrFactoryImpl

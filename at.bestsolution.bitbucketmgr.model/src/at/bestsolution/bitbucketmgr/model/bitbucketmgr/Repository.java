@@ -25,7 +25,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getRepository()
+ * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository()
  * @model
  * @generated
  */
@@ -40,7 +40,7 @@ public interface Repository extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Owner</em>' attribute.
 	 * @see #setOwner(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getRepository_Owner()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository_Owner()
 	 * @model
 	 * @generated
 	 */
@@ -66,7 +66,7 @@ public interface Repository extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#getRepository_Name()
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository_Name()
 	 * @model
 	 * @generated
 	 */
