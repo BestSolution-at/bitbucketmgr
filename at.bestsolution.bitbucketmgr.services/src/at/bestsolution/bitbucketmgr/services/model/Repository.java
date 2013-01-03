@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.services.model;
+package at.bestsolution.bitbucketmgr.services.model;
 
 import java.util.List;
 

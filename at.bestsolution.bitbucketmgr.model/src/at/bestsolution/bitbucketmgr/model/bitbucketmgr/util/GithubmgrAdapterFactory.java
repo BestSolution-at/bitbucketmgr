@@ -10,7 +10,7 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.util;
 
-import at.bestsolution.githubmgr.model.githubmgr.*;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.*;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;

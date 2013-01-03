@@ -10,7 +10,7 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.githubmgr.*;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.*;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;

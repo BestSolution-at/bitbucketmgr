@@ -40,7 +40,7 @@ import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.e4.ui.workbench.lifecycle.PostContextCreate;
 
 import at.bestsolution.efxclipse.runtime.dialogs.MessageDialog;
-import at.bestsolution.githubmgr.services.AuthentificationService;
+import at.bestsolution.bitbucketmgr.services.AuthentificationService;
 
 @SuppressWarnings("restriction")
 public class LifecycleHandler {

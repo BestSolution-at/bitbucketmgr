@@ -8,14 +8,14 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.services.model.impl;
+package at.bestsolution.bitbucketmgr.services.model.impl;
 
 import java.util.Collections;
 import java.util.List;
 
-import at.bestsolution.githubmgr.services.model.Contributor;
-import at.bestsolution.githubmgr.services.model.Repository;
-import at.bestsolution.githubmgr.services.spi.RepositoryServiceSPI;
+import at.bestsolution.bitbucketmgr.services.model.Contributor;
+import at.bestsolution.bitbucketmgr.services.model.Repository;
+import at.bestsolution.bitbucketmgr.services.spi.RepositoryServiceSPI;
 
 public class RepositoryImpl implements Repository {
 	private RepositoryServiceSPI service;

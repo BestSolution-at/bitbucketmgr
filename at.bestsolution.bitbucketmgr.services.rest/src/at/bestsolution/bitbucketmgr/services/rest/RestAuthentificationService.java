@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.services.rest;
+package at.bestsolution.bitbucketmgr.services.rest;
 
 import org.eclipse.egit.github.core.service.CommitService;
 import org.eclipse.egit.github.core.service.RepositoryService;

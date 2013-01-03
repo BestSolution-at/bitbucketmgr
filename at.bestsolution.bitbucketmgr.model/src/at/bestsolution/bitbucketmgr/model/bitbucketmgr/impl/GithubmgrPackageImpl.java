@@ -10,11 +10,11 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrFactory;
-import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrPackage;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Project;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Repository;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Workspace;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrFactory;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;

@@ -31,8 +31,8 @@ import org.osgi.util.tracker.ServiceTracker;
 import at.bestsolution.efxclipse.runtime.core.log.Logger;
 import at.bestsolution.efxclipse.runtime.core.log.LoggerFactory;
 import at.bestsolution.bitbucketmgr.core.services.WorkspaceModelProvider;
-import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrFactory;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Workspace;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrFactory;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
 public class XMIWorkspaceModelProvider implements WorkspaceModelProvider {
 	

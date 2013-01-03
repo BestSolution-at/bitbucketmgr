@@ -61,7 +61,7 @@ public interface GithubmgrPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	GithubmgrPackage eINSTANCE = at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrPackageImpl.init();
+	GithubmgrPackage eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrPackageImpl.init();
 
 	/**
 	 * The meta object id for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.

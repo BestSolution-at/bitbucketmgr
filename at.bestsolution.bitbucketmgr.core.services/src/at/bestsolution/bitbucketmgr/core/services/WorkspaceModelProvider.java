@@ -13,7 +13,7 @@ package at.bestsolution.bitbucketmgr.core.services;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.IStatus;
 
-import at.bestsolution.githubmgr.model.githubmgr.Workspace;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
 public interface WorkspaceModelProvider {
 	public Workspace getWorkspace(IProgressMonitor monitor);

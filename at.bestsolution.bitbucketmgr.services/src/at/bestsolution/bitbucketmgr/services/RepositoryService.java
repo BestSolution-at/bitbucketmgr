@@ -8,11 +8,11 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.services;
+package at.bestsolution.bitbucketmgr.services;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 
-import at.bestsolution.githubmgr.services.model.Repository;
+import at.bestsolution.bitbucketmgr.services.model.Repository;
 
 public interface RepositoryService {
 	public Repository create(IProgressMonitor monitor, String name, boolean isPrivate);

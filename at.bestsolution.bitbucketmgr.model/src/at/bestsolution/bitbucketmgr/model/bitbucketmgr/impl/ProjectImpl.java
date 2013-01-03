@@ -10,9 +10,9 @@
  *******************************************************************************/
 package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrPackage;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Project;
-import at.bestsolution.bitbucketmgr.model.githubmgr.Repository;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
 
 import java.util.Collection;
 

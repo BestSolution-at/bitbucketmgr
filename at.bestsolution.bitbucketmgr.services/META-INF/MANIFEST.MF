@@ -5,6 +5,6 @@ Bundle-SymbolicName: at.bestsolution.bitbucketmgr.services
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ClassPath: .
-Export-Package: at.bestsolution.githubmgr.services,
- at.bestsolution.githubmgr.services.model
+Export-Package: at.bestsolution.bitbucketmgr.services,
+ at.bestsolution.bitbucketmgr.services.model
 Require-Bundle: org.eclipse.equinox.common;bundle-version="3.6.100"

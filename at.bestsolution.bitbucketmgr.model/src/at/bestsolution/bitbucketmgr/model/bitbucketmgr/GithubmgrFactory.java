@@ -27,7 +27,7 @@ public interface GithubmgrFactory extends EFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	GithubmgrFactory eINSTANCE = at.bestsolution.githubmgr.model.githubmgr.impl.GithubmgrFactoryImpl.init();
+	GithubmgrFactory eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrFactoryImpl.init();
 
 	/**
 	 * Returns a new object of class '<em>Workspace</em>'.

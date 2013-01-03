@@ -8,13 +8,13 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.services.spi;
+package at.bestsolution.bitbucketmgr.services.spi;
 
 import java.util.List;
 
-import at.bestsolution.githubmgr.services.RepositoryService;
-import at.bestsolution.githubmgr.services.model.Contributor;
-import at.bestsolution.githubmgr.services.model.Repository;
+import at.bestsolution.bitbucketmgr.services.RepositoryService;
+import at.bestsolution.bitbucketmgr.services.model.Contributor;
+import at.bestsolution.bitbucketmgr.services.model.Repository;
 
 public interface RepositoryServiceSPI extends RepositoryService {
 	public List<Contributor> findContributors(Repository repo);
