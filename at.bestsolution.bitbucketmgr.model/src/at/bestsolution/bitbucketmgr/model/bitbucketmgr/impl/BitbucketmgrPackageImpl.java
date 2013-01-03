@@ -62,7 +62,7 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage#eNS_URI
+	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */
@@ -80,7 +80,7 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 	/**
 	 * Creates, registers, and initializes the <b>Package</b> for this model, and for any others upon which it depends.
 	 * 
-	 * <p>This method is used to initialize {@link GithubmgrPackage#eINSTANCE} when that field is accessed.
+	 * <p>This method is used to initialize {@link BitbucketmgrPackage#eINSTANCE} when that field is accessed.
 	 * Clients should not invoke it directly. Instead, they should simply access that field to obtain the package.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -93,23 +93,23 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 		if (isInited) return (BitbucketmgrPackage)EPackage.Registry.INSTANCE.getEPackage(BitbucketmgrPackage.eNS_URI);
 
 		// Obtain or create and register package
-		BitbucketmgrPackageImpl theGithubmgrPackage = (BitbucketmgrPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof BitbucketmgrPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new BitbucketmgrPackageImpl());
+		BitbucketmgrPackageImpl theBitbucketmgrPackage = (BitbucketmgrPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof BitbucketmgrPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new BitbucketmgrPackageImpl());
 
 		isInited = true;
 
 		// Create package meta-data objects
-		theGithubmgrPackage.createPackageContents();
+		theBitbucketmgrPackage.createPackageContents();
 
 		// Initialize created meta-data
-		theGithubmgrPackage.initializePackageContents();
+		theBitbucketmgrPackage.initializePackageContents();
 
 		// Mark meta-data to indicate it can't be changed
-		theGithubmgrPackage.freeze();
+		theBitbucketmgrPackage.freeze();
 
   
 		// Update the registry and return the package
-		EPackage.Registry.INSTANCE.put(BitbucketmgrPackage.eNS_URI, theGithubmgrPackage);
-		return theGithubmgrPackage;
+		EPackage.Registry.INSTANCE.put(BitbucketmgrPackage.eNS_URI, theBitbucketmgrPackage);
+		return theBitbucketmgrPackage;
 	}
 
 	/**
@@ -198,7 +198,7 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public BitbucketmgrFactory getGithubmgrFactory() {
+	public BitbucketmgrFactory getBitbucketmgrFactory() {
 		return (BitbucketmgrFactory)getEFactoryInstance();
 	}
 
@@ -280,4 +280,4 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 		createResource(eNS_URI);
 	}
 
-} //GithubmgrPackageImpl
+} //BitbucketmgrPackageImpl

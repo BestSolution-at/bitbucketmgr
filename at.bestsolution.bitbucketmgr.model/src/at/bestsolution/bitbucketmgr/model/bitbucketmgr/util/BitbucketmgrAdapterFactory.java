@@ -27,7 +27,7 @@ import org.eclipse.emf.ecore.EObject;
  * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
  * @generated
  */
-public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
+public class BitbucketmgrAdapterFactory extends AdapterFactoryImpl {
 	/**
 	 * The cached model package.
 	 * <!-- begin-user-doc -->
@@ -42,7 +42,7 @@ public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GithubmgrAdapterFactory() {
+	public BitbucketmgrAdapterFactory() {
 		if (modelPackage == null) {
 			modelPackage = BitbucketmgrPackage.eINSTANCE;
 		}
@@ -73,8 +73,8 @@ public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected GithubmgrSwitch<Adapter> modelSwitch =
-		new GithubmgrSwitch<Adapter>() {
+	protected BitbucketmgrSwitch<Adapter> modelSwitch =
+		new BitbucketmgrSwitch<Adapter>() {
 			@Override
 			public Adapter caseWorkspace(Workspace object) {
 				return createWorkspaceAdapter();
@@ -161,4 +161,4 @@ public class GithubmgrAdapterFactory extends AdapterFactoryImpl {
 		return null;
 	}
 
-} //GithubmgrAdapterFactory
+} //BitbucketmgrAdapterFactory

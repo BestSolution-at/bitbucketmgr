@@ -30,7 +30,7 @@ import org.eclipse.emf.ecore.util.Switch;
  * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
  * @generated
  */
-public class GithubmgrSwitch<T> extends Switch<T> {
+public class BitbucketmgrSwitch<T> extends Switch<T> {
 	/**
 	 * The cached model package
 	 * <!-- begin-user-doc -->
@@ -45,9 +45,9 @@ public class GithubmgrSwitch<T> extends Switch<T> {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public GithubmgrSwitch() {
+	public BitbucketmgrSwitch() {
 		if (modelPackage == null) {
-			modelPackage = GithubmgrPackage.eINSTANCE;
+			modelPackage = BitbucketmgrPackage.eINSTANCE;
 		}
 	}
 
@@ -74,19 +74,19 @@ public class GithubmgrSwitch<T> extends Switch<T> {
 	@Override
 	protected T doSwitch(int classifierID, EObject theEObject) {
 		switch (classifierID) {
-			case GithubmgrPackage.WORKSPACE: {
+			case BitbucketmgrPackage.WORKSPACE: {
 				Workspace workspace = (Workspace)theEObject;
 				T result = caseWorkspace(workspace);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
-			case GithubmgrPackage.PROJECT: {
+			case BitbucketmgrPackage.PROJECT: {
 				Project project = (Project)theEObject;
 				T result = caseProject(project);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
-			case GithubmgrPackage.REPOSITORY: {
+			case BitbucketmgrPackage.REPOSITORY: {
 				Repository repository = (Repository)theEObject;
 				T result = caseRepository(repository);
 				if (result == null) result = defaultCase(theEObject);
@@ -157,4 +157,4 @@ public class GithubmgrSwitch<T> extends Switch<T> {
 		return null;
 	}
 
-} //GithubmgrSwitch
+} //BitbucketmgrSwitch

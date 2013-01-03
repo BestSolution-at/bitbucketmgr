@@ -35,9 +35,9 @@ public class BitbucketmgrFactoryImpl extends EFactoryImpl implements Bitbucketmg
 	 */
 	public static BitbucketmgrFactory init() {
 		try {
-			BitbucketmgrFactory theGithubmgrFactory = (BitbucketmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/githubmgr"); 
-			if (theGithubmgrFactory != null) {
-				return theGithubmgrFactory;
+			BitbucketmgrFactory theBitbucketmgrFactory = (BitbucketmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/githubmgr"); 
+			if (theBitbucketmgrFactory != null) {
+				return theBitbucketmgrFactory;
 			}
 		}
 		catch (Exception exception) {
@@ -107,7 +107,7 @@ public class BitbucketmgrFactoryImpl extends EFactoryImpl implements Bitbucketmg
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public BitbucketmgrPackage getGithubmgrPackage() {
+	public BitbucketmgrPackage getBitbucketmgrPackage() {
 		return (BitbucketmgrPackage)getEPackage();
 	}
 
@@ -122,4 +122,4 @@ public class BitbucketmgrFactoryImpl extends EFactoryImpl implements Bitbucketmg
 		return BitbucketmgrPackage.eINSTANCE;
 	}
 
-} //GithubmgrFactoryImpl
+} //BitbucketmgrFactoryImpl
