@@ -5,12 +5,12 @@
 	<product name="Bitbucket Manager" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" >
 		<property name="appName" value="Bitbucket Manager" />
 		
-		<property name="applicationXMI" value="at.bestsolution.githubmgr.app/Application.e4xmi" />
+		<property name="applicationXMI" value="at.bestsolution.bitbucketmgr.app/Application.e4xmi" />
 		
 		<property name="cssTheme" value="theme.default" />
   <property
         name="lifeCycleURI"
-        value="bundleclass://at.bestsolution.githubmgr.app/at.bestsolution.githubmgr.app.LifecycleHandler">
+        value="bundleclass://at.bestsolution.bitbucketmgr.app/at.bestsolution.bitbucketmgr.app.LifecycleHandler">
   </property>
 		
 	</product>

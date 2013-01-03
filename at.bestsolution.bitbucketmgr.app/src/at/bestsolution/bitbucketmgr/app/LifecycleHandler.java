@@ -50,7 +50,7 @@ public class LifecycleHandler {
 
 	@PostContextCreate
 	boolean init(final AuthentificationService authService) {
-		if( Boolean.getBoolean("githubmgr.debug") ) {
+		if( Boolean.getBoolean("bitbucketmgr.debug") ) {
 			return true;
 		}
 		
@@ -69,7 +69,7 @@ public class LifecycleHandler {
 			GridPane gp = new GridPane();
 			
 			{
-				Label l = new Label("Github Login");
+				Label l = new Label("Bitbucket Login");
 				l.getStyleClass().add("h1");
 				gp.add(l, 0, 0, 2, 1);	
 				GridPane.setHalignment(l, HPos.CENTER);
@@ -139,7 +139,7 @@ public class LifecycleHandler {
 			pane.setCenter(gp);
 		}
 		
-		pane.getStyleClass().add("githubWindow");
+		pane.getStyleClass().add("bitbucketWindow");
 		pane.layout();
 		
 		Rectangle r = new Rectangle(400, 200);

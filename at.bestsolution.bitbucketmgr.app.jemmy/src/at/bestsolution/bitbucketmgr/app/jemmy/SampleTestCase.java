@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.app.jemmy;
+package at.bestsolution.bitbucketmgr.app.jemmy;
 
 import junit.framework.Assert;
 

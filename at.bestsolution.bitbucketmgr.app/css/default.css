@@ -1,7 +1,7 @@
 /*
  * Login Styles
  */
-.githubWindow {
+.bitbucketWindow {
 	-fx-background-image: url("icons/default/wallpaper.png");
 	-fx-padding: 15px;
 	-fx-border-radius: 5px;
@@ -9,18 +9,18 @@
 	-fx-border-width: 3px;
 }
 
-.githubWindow .label {
+.bitbucketubWindow .label {
 	-fx-text-fill: white;
 	-fx-font-weight: bold;
 	-fx-font-size: 15pt;
 }
 
-.githubWindow .textfield {
+.bitbucketWindow .textfield {
 	-fx-font-weight: bold;
 	-fx-font-size: 15pt;
 }
 
-.githubWindow GridPane {
+.bitbucketWindow GridPane {
 	-fx-padding: 5px;
 	-fx-hgap: 5px;
 	-fx-vgap: 5px;

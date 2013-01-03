@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>Github Manager - application feature</name>
-	<groupId>at.bestsolution.githubmgr</groupId>
-	<artifactId>at.bestsolution.githubmgr.app.feature</artifactId>
+	<name>Bitbucket Manager - application feature</name>
+	<groupId>at.bestsolution.bitbucketmgr</groupId>
+	<artifactId>at.bestsolution.bitbucketmgr.app.feature</artifactId>
 	<packaging>eclipse-feature</packaging>
 
 	<parent>
-		<groupId>at.bestsolution.githubmgr</groupId>
-		<artifactId>at.bestsolution.githubmgr.app.releng</artifactId>
-		<relativePath>../at.bestsolution.githubmgr.app.releng/pom.xml</relativePath>
+		<groupId>at.bestsolution.bitbucketmgr</groupId>
+		<artifactId>at.bestsolution.bitbucketmgr.app.releng</artifactId>
+		<relativePath>../at.bestsolution.bitbucketmgr.app.releng/pom.xml</relativePath>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
