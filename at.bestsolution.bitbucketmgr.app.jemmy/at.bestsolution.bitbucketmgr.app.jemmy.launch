@@ -18,7 +18,7 @@
 <booleanAttribute key="includeOptional" value="true"/>
 <stringAttribute key="location" value="${workspace_loc}/../junit-workspace"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/at.bestsolution.bitbucketmgr.app.jemmy/src/at/bestsolution/githubmgr/app/jemmy/TestSuite.java"/>
+<listEntry value="/at.bestsolution.bitbucketmgr.app.jemmy/src/at/bestsolution/bitbucketmgr/app/jemmy/TestSuite.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -27,19 +27,19 @@
 <booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
 <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value=""/>
 <stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="at.bestsolution.githubmgr.app.jemmy.TestSuite"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="at.bestsolution.bitbucketmgr.app.jemmy.TestSuite"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-nl ${target.nl} -consoleLog -nosplash"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="at.bestsolution.bitbucketmgr.app.jemmy"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms40m -Xmx512m -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.githubmgr.app.product"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms40m -Xmx512m -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.bitbucketmgr.app.product"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <stringAttribute key="product" value="org.eclipse.sdk.ide"/>
 <booleanAttribute key="run_in_ui_thread" value="false"/>
 <setAttribute key="selected_features">
 <setEntry value="at.bestsolution.efxclipse.runtime.jemmy.feature:default"/>
 <setEntry value="at.bestsolution.efxclipse.runtime.jemmy.junit.feature:default"/>
-<setEntry value="at.bestsolution.githubmgr.app.feature:default"/>
-<setEntry value="at.bestsolution.githubmgr.app.jemmy.feature:default"/>
+<setEntry value="at.bestsolution.bitbucketmgr.app.feature:default"/>
+<setEntry value="at.bestsolution.bitbucketmgr.app.jemmy.feature:default"/>
 </setAttribute>
 <booleanAttribute key="show_selected_only" value="false"/>
 <booleanAttribute key="tracing" value="false"/>
