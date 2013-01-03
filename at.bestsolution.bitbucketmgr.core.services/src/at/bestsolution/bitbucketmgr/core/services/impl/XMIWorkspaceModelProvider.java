@@ -31,7 +31,7 @@ import org.osgi.util.tracker.ServiceTracker;
 import at.bestsolution.efxclipse.runtime.core.log.Logger;
 import at.bestsolution.efxclipse.runtime.core.log.LoggerFactory;
 import at.bestsolution.bitbucketmgr.core.services.WorkspaceModelProvider;
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrFactory;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrFactory;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
 public class XMIWorkspaceModelProvider implements WorkspaceModelProvider {
@@ -80,7 +80,7 @@ public class XMIWorkspaceModelProvider implements WorkspaceModelProvider {
 			r = resourceSet.getResource(uri, true);
 		} else {
 			r = resourceSet.createResource(uri);
-			Workspace w = GithubmgrFactory.eINSTANCE.createWorkspace();
+			Workspace w = BitbucketmgrFactory.eINSTANCE.createWorkspace();
 			r.getContents().add(w);
 		}
 		

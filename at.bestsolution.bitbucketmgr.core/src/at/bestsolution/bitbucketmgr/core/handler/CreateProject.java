@@ -10,7 +10,7 @@ import org.eclipse.e4.core.services.events.IEventBroker;
 
 import at.bestsolution.bitbucketmgr.core.EventConstants;
 import at.bestsolution.bitbucketmgr.core.services.WorkspaceModelProvider;
-import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrFactory;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrFactory;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
@@ -22,7 +22,7 @@ public class CreateProject {
 	
 	@Execute
 	public void createProject(WorkspaceModelProvider modelProvider, @Named("projectName") String projectName) {
-		Project p = GithubmgrFactory.eINSTANCE.createProject();
+		Project p = BitbucketmgrFactory.eINSTANCE.createProject();
 		p.setName(projectName);
 		//TODO Use progress service
 		Workspace ws = modelProvider.getWorkspace(new NullProgressMonitor());
