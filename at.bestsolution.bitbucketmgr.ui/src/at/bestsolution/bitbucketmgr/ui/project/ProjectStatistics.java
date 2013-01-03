@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.project;
+package at.bestsolution.bitbucketmgr.ui.project;
 
 public class ProjectStatistics {
 

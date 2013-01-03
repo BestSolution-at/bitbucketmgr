@@ -8,11 +8,11 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.services.mock;
+package at.bestsolution.bitbucketmgr.services.mock;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 
-import at.bestsolution.githubmgr.services.AuthentificationService;
+import at.bestsolution.bitbucketmgr.services.AuthentificationService;
 
 public class MockAuthentificationService implements AuthentificationService {
 

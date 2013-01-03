@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.controller;
+package at.bestsolution.bitbucketmgr.ui.controller;
 
 import javax.inject.Inject;
 
@@ -10,8 +10,8 @@ import org.eclipse.e4.ui.model.application.ui.basic.MWindow;
 import org.eclipse.e4.ui.workbench.modeling.EModelService;
 import org.eclipse.e4.ui.workbench.modeling.EPartService;
 
-import at.bestsolution.githubmgr.model.githubmgr.Project;
-import at.bestsolution.githubmgr.ui.projectoverview.ProjectOverviewController;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
+import at.bestsolution.bitbucketmgr.ui.projectoverview.ProjectOverviewController;
 
 @SuppressWarnings("restriction")
 public class E4ProjectOverviewController extends ProjectOverviewController {

@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.ui.projectoverview;
+package at.bestsolution.bitbucketmgr.ui.projectoverview;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,10 +33,10 @@ import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
 import org.eclipse.e4.ui.di.UIEventTopic;
 
-import at.bestsolution.githubmgr.core.EventConstants;
-import at.bestsolution.githubmgr.core.services.WorkspaceModelProvider;
-import at.bestsolution.githubmgr.model.githubmgr.Project;
-import at.bestsolution.githubmgr.model.githubmgr.Workspace;
+import at.bestsolution.bitbucketmgr.core.EventConstants;
+import at.bestsolution.bitbucketmgr.core.services.WorkspaceModelProvider;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace;
 
 import com.sun.javafx.scene.control.skin.ScrollPaneSkin;
 

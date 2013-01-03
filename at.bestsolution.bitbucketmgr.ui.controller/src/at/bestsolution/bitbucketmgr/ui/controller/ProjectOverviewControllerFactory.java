@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.controller;
+package at.bestsolution.bitbucketmgr.ui.controller;
 
 import at.bestsolution.efxclipse.runtime.di.CachingContextFunction;
 

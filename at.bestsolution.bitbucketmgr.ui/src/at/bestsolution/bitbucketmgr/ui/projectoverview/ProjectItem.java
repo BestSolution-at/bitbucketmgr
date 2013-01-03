@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.projectoverview;
+package at.bestsolution.bitbucketmgr.ui.projectoverview;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.SimpleBooleanProperty;
@@ -18,7 +18,7 @@ import javafx.util.Callback;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
-import at.bestsolution.githubmgr.model.githubmgr.Project;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 
 class ProjectItem {
 	

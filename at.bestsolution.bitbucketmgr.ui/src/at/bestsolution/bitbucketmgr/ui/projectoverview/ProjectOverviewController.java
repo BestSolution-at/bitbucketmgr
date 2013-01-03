@@ -1,6 +1,6 @@
-package at.bestsolution.githubmgr.ui.projectoverview;
+package at.bestsolution.bitbucketmgr.ui.projectoverview;
 
-import at.bestsolution.githubmgr.model.githubmgr.Project;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project;
 
 public abstract class ProjectOverviewController {
 	public abstract void openProject(Project project);

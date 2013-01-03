@@ -40,4 +40,4 @@ Import-Package: javafx.animation;version="2.2.0",
  javafx.stage;version="2.2.0",
  javafx.util;version="2.2.0",
  javafx.util.converter;version="2.2.0"
-Export-Package: at.bestsolution.githubmgr.ui.handler
+Export-Package: at.bestsolution.bitbucketmgr.ui.handler

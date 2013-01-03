@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.handler;
+package at.bestsolution.bitbucketmgr.ui.handler;
 
 import java.util.HashMap;
 import java.util.Map;

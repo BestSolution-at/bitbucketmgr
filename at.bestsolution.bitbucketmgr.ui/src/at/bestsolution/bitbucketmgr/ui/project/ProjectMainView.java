@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.ui.project;
+package at.bestsolution.bitbucketmgr.ui.project;
 
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
