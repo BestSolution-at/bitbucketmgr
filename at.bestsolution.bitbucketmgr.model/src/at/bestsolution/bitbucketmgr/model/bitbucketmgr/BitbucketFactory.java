@@ -20,14 +20,14 @@ import org.eclipse.emf.ecore.EFactory;
  * @see at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage
  * @generated
  */
-public interface GithubmgrFactory extends EFactory {
+public interface BitbucketmgrFactory extends EFactory {
 	/**
 	 * The singleton instance of the factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	GithubmgrFactory eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrFactoryImpl.init();
+	BitbucketmgrFactory eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.GithubmgrFactoryImpl.init();
 
 	/**
 	 * Returns a new object of class '<em>Workspace</em>'.

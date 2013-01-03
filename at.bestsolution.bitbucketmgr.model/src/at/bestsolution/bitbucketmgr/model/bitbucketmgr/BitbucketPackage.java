@@ -30,7 +30,7 @@ import org.eclipse.emf.ecore.EReference;
  * @model kind="package"
  * @generated
  */
-public interface GithubmgrPackage extends EPackage {
+public interface BitbucketmgrPackage extends EPackage {
 	/**
 	 * The package name.
 	 * <!-- begin-user-doc -->
