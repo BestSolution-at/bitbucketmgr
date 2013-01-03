@@ -10,21 +10,21 @@
 <booleanAttribute key="clearConfig" value="false"/>
 <booleanAttribute key="clearws" value="false"/>
 <booleanAttribute key="clearwslog" value="false"/>
-<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/at.bestsolution.githubmgr.app.product.product - mock"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/at.bestsolution.bitbucketmgr.app.product.product - mock"/>
 <booleanAttribute key="default" value="false"/>
 <stringAttribute key="featureDefaultLocation" value="workspace"/>
 <stringAttribute key="featurePluginResolution" value="workspace"/>
 <booleanAttribute key="includeOptional" value="true"/>
-<stringAttribute key="location" value="${workspace_loc}/../runtime-at.bestsolution.githubmgr.app.product"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-at.bestsolution.bitbucketmgr.app.product"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-nl ${target.nl} -consoleLog -nosplash -clearPersistedState"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dgithubmgr.debug=true"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dbitbucketmgr.debug=true"/>
 <stringAttribute key="pde.version" value="3.3"/>
-<stringAttribute key="product" value="at.bestsolution.githubmgr.app.product"/>
-<stringAttribute key="productFile" value="/at.bestsolution.githubmgr.app.product/at.bestsolution.githubmgr.app.product.product"/>
+<stringAttribute key="product" value="at.bestsolution.bitbucketmgr.app.product"/>
+<stringAttribute key="productFile" value="/at.bestsolution.bitbucketmgr.app.product/at.bestsolution.bitbucketmgr.app.product.product"/>
 <setAttribute key="selected_features">
-<setEntry value="at.bestsolution.githubmgr.app.feature:default"/>
-<setEntry value="at.bestsolution.githubmgr.services.mock.feature:default"/>
+<setEntry value="at.bestsolution.bitbucketmgr.app.feature:default"/>
+<setEntry value="at.bestsolution.bitbucketmgr.services.mock.feature:default"/>
 </setAttribute>
 <booleanAttribute key="show_selected_only" value="false"/>
 <booleanAttribute key="tracing" value="false"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Github Manager" id="at.bestsolution.githubmgr.app.product" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" version="1.0.0" useFeatures="true" includeLaunchers="false">
+<product name="Bitbucket Manager" id="at.bestsolution.bitbucketmgr.app.product" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" version="1.0.0" useFeatures="true" includeLaunchers="false">
 
 	<configIni use="default">
 	</configIni>
@@ -13,7 +13,7 @@
 	<windowImages/>
 	
 	<features>
-		<feature id="at.bestsolution.githubmgr.app.feature" version="1.0.0.qualifier"/>
+		<feature id="at.bestsolution.bitbucketmgr.app.feature" version="1.0.0.qualifier"/>
 	</features>
 	<configurations>
 		<plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
