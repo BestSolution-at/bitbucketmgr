@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Handler
-Bundle-SymbolicName: at.bestsolution.githubmgr.ui.handler
+Bundle-SymbolicName: at.bestsolution.bitbucketmgr.ui.handler
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.eclipse.e4.core.di;bundle-version="1.2.0",

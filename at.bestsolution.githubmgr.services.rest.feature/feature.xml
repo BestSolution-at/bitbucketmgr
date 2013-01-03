@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="at.bestsolution.githubmgr.services.rest.feature"
+      id="at.bestsolution.bitbucketmgr.services.rest.feature"
       label="Feature"
       version="1.0.0.qualifier">
 
@@ -17,7 +17,7 @@
    </license>
 
    <plugin
-         id="at.bestsolution.githubmgr.services.rest"
+         id="at.bestsolution.bitbucketmgr.services.rest"
          download-size="0"
          install-size="0"
          version="0.0.0"
