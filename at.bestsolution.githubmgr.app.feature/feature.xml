@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="at.bestsolution.githubmgr.app.feature"
-      label="Github Manager Application Feature"
+      id="at.bestsolution.bitbucketmgr.app.feature"
+      label="Bitbucket Manager Application Feature"
       version="1.0.0.qualifier"
       provider-name="${BundleProject_bundleVendor}">
 
@@ -18,7 +18,7 @@
    </license>
 
    <plugin
-         id="at.bestsolution.githubmgr.app"
+         id="at.bestsolution.bitbucketmgr.app"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -468,63 +468,49 @@
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.githubmgr.services"
+         id="at.bestsolution.bitbucketmgr.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.githubmgr.model"
+         id="at.bestsolution.bitbucketmgr.model"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.githubmgr.ui"
+         id="at.bestsolution.bitbucketmgr.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.ipde.github.core"
+         id="at.bestsolution.bitbucketmgr.core.services"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.ipde.github.model"
+         id="at.bestsolution.bitbucketmgr.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.githubmgr.core.services"
+         id="at.bestsolution.bitbucketmgr.ui.handler"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="at.bestsolution.githubmgr.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="at.bestsolution.githubmgr.ui.handler"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="at.bestsolution.githubmgr.ui.controller"
+         id="at.bestsolution.bitbucketmgr.ui.controller"
          download-size="0"
          install-size="0"
          version="0.0.0"

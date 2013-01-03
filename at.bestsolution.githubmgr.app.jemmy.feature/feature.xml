@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-	id="at.bestsolution.githubmgr.app.jemmy.feature"
-	label="Github Manager Jemmy JUnit Feature"
+	id="at.bestsolution.bitbucketmgr.app.jemmy.feature"
+	label="Bitbucket Manager Jemmy JUnit Feature"
 	version="1.0.0.qualifier"
 	provider-name="${BundleProject_bundleVendor}"
 	>
@@ -17,7 +17,7 @@
 			TODO FILL WITH CONTENT
 		</license>
 
-   		<plugin id="at.bestsolution.githubmgr.app.jemmy" install-size="0" version="0.0.0" unpack="false" />
+   		<plugin id="at.bestsolution.bitbucketmgr.app.jemmy" install-size="0" version="0.0.0" unpack="false" />
 
 
 </feature>

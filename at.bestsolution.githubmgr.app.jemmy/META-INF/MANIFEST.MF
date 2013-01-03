@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: My Sample App Jemmy UI Tests
-Bundle-SymbolicName: at.bestsolution.githubmgr.app.jemmy
+Bundle-SymbolicName: at.bestsolution.bitbucketmgr.app.jemmy
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.junit4,
