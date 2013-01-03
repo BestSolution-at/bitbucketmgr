@@ -2,8 +2,8 @@
 <?eclipse version="3.0"?>
 <plugin>
 <extension id="product" point="org.eclipse.core.runtime.products">
-	<product name="Github Manager" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" >
-		<property name="appName" value="Github Manager" />
+	<product name="Bitbucket Manager" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" >
+		<property name="appName" value="Bitbucket Manager" />
 		
 		<property name="applicationXMI" value="at.bestsolution.githubmgr.app/Application.e4xmi" />
 		

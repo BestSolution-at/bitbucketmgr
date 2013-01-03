@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: My Sample App
-Bundle-SymbolicName: at.bestsolution.githubmgr.app; singleton:=true
+Bundle-SymbolicName: at.bestsolution.bitbucketmgr.app;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: at.bestsolution.efxclipse.runtime.application,
@@ -20,12 +20,12 @@ Require-Bundle: at.bestsolution.efxclipse.runtime.application,
  org.eclipse.core.databinding.property,
  org.eclipse.e4.ui.workbench,
  org.eclipse.e4.ui.services,
- at.bestsolution.githubmgr.services;bundle-version="1.0.0",
+ at.bestsolution.bitbucketmgr.services;bundle-version="1.0.0",
  at.bestsolution.efxclipse.runtime.dialogs;bundle-version="0.8.0",
- at.bestsolution.githubmgr.ui;bundle-version="1.0.0",
+ at.bestsolution.bitbucketmgr.ui;bundle-version="1.0.0",
  org.eclipse.equinox.common;bundle-version="3.6.100",
- at.bestsolution.githubmgr.core;bundle-version="1.0.0",
- at.bestsolution.githubmgr.ui.handler;bundle-version="1.0.0",
+ at.bestsolution.bitbucketmgr.core;bundle-version="1.0.0",
+ at.bestsolution.bitbucketmgr.ui.handler;bundle-version="1.0.0",
  at.bestsolution.efxclipse.runtime.workbench.renderers.base;bundle-version="0.8.0",
  at.bestsolution.efxclipse.runtime.animationutils;bundle-version="0.8.0"
 Import-Package: javax.inject;version="1.0.0",
