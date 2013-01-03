@@ -22,13 +22,13 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Project#getName <em>Name</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Project#getRepositoryList <em>Repository List</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Project#getIcon <em>Icon</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getName <em>Name</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getRepositoryList <em>Repository List</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getIcon <em>Icon</em>}</li>
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject()
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getProject()
  * @model
  * @generated
  */
@@ -43,14 +43,14 @@ public interface Project extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_Name()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getProject_Name()
 	 * @model
 	 * @generated
 	 */
 	String getName();
 
 	/**
-	 * Sets the value of the '{@link at.bestsolution.githubmgr.model.githubmgr.Project#getName <em>Name</em>}' attribute.
+	 * Sets the value of the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.
@@ -61,7 +61,7 @@ public interface Project extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>Repository List</b></em>' containment reference list.
-	 * The list contents are of type {@link at.bestsolution.githubmgr.model.githubmgr.Repository}.
+	 * The list contents are of type {@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Repository List</em>' containment reference list isn't clear,
@@ -69,7 +69,7 @@ public interface Project extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Repository List</em>' containment reference list.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_RepositoryList()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getProject_RepositoryList()
 	 * @model containment="true"
 	 * @generated
 	 */
@@ -85,14 +85,14 @@ public interface Project extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Icon</em>' attribute.
 	 * @see #setIcon(byte[])
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getProject_Icon()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getProject_Icon()
 	 * @model
 	 * @generated
 	 */
 	byte[] getIcon();
 
 	/**
-	 * Sets the value of the '{@link at.bestsolution.githubmgr.model.githubmgr.Project#getIcon <em>Icon</em>}' attribute.
+	 * Sets the value of the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getIcon <em>Icon</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Icon</em>' attribute.

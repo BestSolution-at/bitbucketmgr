@@ -35,7 +35,7 @@ public class BitbucketmgrFactoryImpl extends EFactoryImpl implements Bitbucketmg
 	 */
 	public static BitbucketmgrFactory init() {
 		try {
-			BitbucketmgrFactory theBitbucketmgrFactory = (BitbucketmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/githubmgr"); 
+			BitbucketmgrFactory theBitbucketmgrFactory = (BitbucketmgrFactory)EPackage.Registry.INSTANCE.getEFactory("http://www.bestsolution.at/bitbucketmgr"); 
 			if (theBitbucketmgrFactory != null) {
 				return theBitbucketmgrFactory;
 			}

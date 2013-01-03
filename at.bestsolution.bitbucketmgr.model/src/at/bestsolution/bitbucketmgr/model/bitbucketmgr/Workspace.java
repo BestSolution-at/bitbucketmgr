@@ -22,18 +22,18 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Workspace#getProjectList <em>Project List</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace#getProjectList <em>Project List</em>}</li>
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getWorkspace()
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getWorkspace()
  * @model
  * @generated
  */
 public interface Workspace extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Project List</b></em>' containment reference list.
-	 * The list contents are of type {@link at.bestsolution.githubmgr.model.githubmgr.Project}.
+	 * The list contents are of type {@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project}.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Project List</em>' containment reference list isn't clear,
@@ -41,7 +41,7 @@ public interface Workspace extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Project List</em>' containment reference list.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getWorkspace_ProjectList()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getWorkspace_ProjectList()
 	 * @model containment="true"
 	 * @generated
 	 */

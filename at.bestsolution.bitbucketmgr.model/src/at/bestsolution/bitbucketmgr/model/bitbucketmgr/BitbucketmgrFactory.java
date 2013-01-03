@@ -17,7 +17,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage
  * @generated
  */
 public interface BitbucketmgrFactory extends EFactory {

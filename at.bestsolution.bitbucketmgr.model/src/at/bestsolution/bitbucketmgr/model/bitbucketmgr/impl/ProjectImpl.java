@@ -37,9 +37,9 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl#getName <em>Name</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl#getRepositoryList <em>Repository List</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl#getIcon <em>Icon</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl#getName <em>Name</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl#getRepositoryList <em>Repository List</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl#getIcon <em>Icon</em>}</li>
  * </ul>
  * </p>
  *

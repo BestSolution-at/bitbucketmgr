@@ -27,8 +27,8 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl#getOwner <em>Owner</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl#getName <em>Name</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl#getOwner <em>Owner</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl#getName <em>Name</em>}</li>
  * </ul>
  * </p>
  *

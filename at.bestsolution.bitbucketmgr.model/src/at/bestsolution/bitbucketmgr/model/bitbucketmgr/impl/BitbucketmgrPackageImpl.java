@@ -62,7 +62,7 @@ public class BitbucketmgrPackageImpl extends EPackageImpl implements Bitbucketmg
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#eNS_URI
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */

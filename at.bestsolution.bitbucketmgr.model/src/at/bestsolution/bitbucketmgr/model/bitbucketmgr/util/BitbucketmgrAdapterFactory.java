@@ -24,7 +24,7 @@ import org.eclipse.emf.ecore.EObject;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage
  * @generated
  */
 public class BitbucketmgrAdapterFactory extends AdapterFactoryImpl {
@@ -108,13 +108,13 @@ public class BitbucketmgrAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link at.bestsolution.githubmgr.model.githubmgr.Workspace <em>Workspace</em>}'.
+	 * Creates a new adapter for an object of class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace <em>Workspace</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Workspace
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace
 	 * @generated
 	 */
 	public Adapter createWorkspaceAdapter() {
@@ -122,13 +122,13 @@ public class BitbucketmgrAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link at.bestsolution.githubmgr.model.githubmgr.Project <em>Project</em>}'.
+	 * Creates a new adapter for an object of class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project <em>Project</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Project
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project
 	 * @generated
 	 */
 	public Adapter createProjectAdapter() {
@@ -136,13 +136,13 @@ public class BitbucketmgrAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link at.bestsolution.githubmgr.model.githubmgr.Repository <em>Repository</em>}'.
+	 * Creates a new adapter for an object of class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository <em>Repository</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Repository
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository
 	 * @generated
 	 */
 	public Adapter createRepositoryAdapter() {

@@ -20,12 +20,12 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getOwner <em>Owner</em>}</li>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getName <em>Name</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getOwner <em>Owner</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getName <em>Name</em>}</li>
  * </ul>
  * </p>
  *
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository()
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getRepository()
  * @model
  * @generated
  */
@@ -40,14 +40,14 @@ public interface Repository extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Owner</em>' attribute.
 	 * @see #setOwner(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository_Owner()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getRepository_Owner()
 	 * @model
 	 * @generated
 	 */
 	String getOwner();
 
 	/**
-	 * Sets the value of the '{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getOwner <em>Owner</em>}' attribute.
+	 * Sets the value of the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getOwner <em>Owner</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Owner</em>' attribute.
@@ -66,14 +66,14 @@ public interface Repository extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
-	 * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrPackage#getRepository_Name()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrPackage#getRepository_Name()
 	 * @model
 	 * @generated
 	 */
 	String getName();
 
 	/**
-	 * Sets the value of the '{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getName <em>Name</em>}' attribute.
+	 * Sets the value of the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.

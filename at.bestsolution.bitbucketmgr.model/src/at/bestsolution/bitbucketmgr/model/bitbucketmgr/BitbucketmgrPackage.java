@@ -26,7 +26,7 @@ import org.eclipse.emf.ecore.EReference;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see at.bestsolution.githubmgr.model.githubmgr.BitbucketmgrFactory
+ * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.BitbucketmgrFactory
  * @model kind="package"
  * @generated
  */
@@ -37,7 +37,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNAME = "githubmgr";
+	String eNAME = "bitbucketmgr";
 
 	/**
 	 * The package namespace URI.
@@ -45,7 +45,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.bestsolution.at/githubmgr";
+	String eNS_URI = "http://www.bestsolution.at/bitbucketmgr";
 
 	/**
 	 * The package namespace name.
@@ -53,7 +53,7 @@ public interface BitbucketmgrPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_PREFIX = "githubmgr";
+	String eNS_PREFIX = "bitbucketmgr";
 
 	/**
 	 * The singleton instance of the package.
@@ -64,11 +64,11 @@ public interface BitbucketmgrPackage extends EPackage {
 	BitbucketmgrPackage eINSTANCE = at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.
+	 * The meta object id for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.WorkspaceImpl
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
 	 * @generated
 	 */
 	int WORKSPACE = 0;
@@ -92,11 +92,11 @@ public interface BitbucketmgrPackage extends EPackage {
 	int WORKSPACE_FEATURE_COUNT = 1;
 
 	/**
-	 * The meta object id for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl <em>Project</em>}' class.
+	 * The meta object id for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl <em>Project</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getProject()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getProject()
 	 * @generated
 	 */
 	int PROJECT = 1;
@@ -138,11 +138,11 @@ public interface BitbucketmgrPackage extends EPackage {
 	int PROJECT_FEATURE_COUNT = 3;
 
 	/**
-	 * The meta object id for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl <em>Repository</em>}' class.
+	 * The meta object id for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl <em>Repository</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl
-	 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getRepository()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getRepository()
 	 * @generated
 	 */
 	int REPOSITORY = 2;
@@ -176,96 +176,96 @@ public interface BitbucketmgrPackage extends EPackage {
 
 
 	/**
-	 * Returns the meta object for class '{@link at.bestsolution.githubmgr.model.githubmgr.Workspace <em>Workspace</em>}'.
+	 * Returns the meta object for class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace <em>Workspace</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Workspace</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Workspace
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace
 	 * @generated
 	 */
 	EClass getWorkspace();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link at.bestsolution.githubmgr.model.githubmgr.Workspace#getProjectList <em>Project List</em>}'.
+	 * Returns the meta object for the containment reference list '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace#getProjectList <em>Project List</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Project List</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Workspace#getProjectList()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Workspace#getProjectList()
 	 * @see #getWorkspace()
 	 * @generated
 	 */
 	EReference getWorkspace_ProjectList();
 
 	/**
-	 * Returns the meta object for class '{@link at.bestsolution.githubmgr.model.githubmgr.Project <em>Project</em>}'.
+	 * Returns the meta object for class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project <em>Project</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Project</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Project
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project
 	 * @generated
 	 */
 	EClass getProject();
 
 	/**
-	 * Returns the meta object for the attribute '{@link at.bestsolution.githubmgr.model.githubmgr.Project#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Project#getName()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getName()
 	 * @see #getProject()
 	 * @generated
 	 */
 	EAttribute getProject_Name();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link at.bestsolution.githubmgr.model.githubmgr.Project#getRepositoryList <em>Repository List</em>}'.
+	 * Returns the meta object for the containment reference list '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getRepositoryList <em>Repository List</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Repository List</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Project#getRepositoryList()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getRepositoryList()
 	 * @see #getProject()
 	 * @generated
 	 */
 	EReference getProject_RepositoryList();
 
 	/**
-	 * Returns the meta object for the attribute '{@link at.bestsolution.githubmgr.model.githubmgr.Project#getIcon <em>Icon</em>}'.
+	 * Returns the meta object for the attribute '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getIcon <em>Icon</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Icon</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Project#getIcon()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Project#getIcon()
 	 * @see #getProject()
 	 * @generated
 	 */
 	EAttribute getProject_Icon();
 
 	/**
-	 * Returns the meta object for class '{@link at.bestsolution.githubmgr.model.githubmgr.Repository <em>Repository</em>}'.
+	 * Returns the meta object for class '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository <em>Repository</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Repository</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Repository
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository
 	 * @generated
 	 */
 	EClass getRepository();
 
 	/**
-	 * Returns the meta object for the attribute '{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getOwner <em>Owner</em>}'.
+	 * Returns the meta object for the attribute '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getOwner <em>Owner</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Owner</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Repository#getOwner()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getOwner()
 	 * @see #getRepository()
 	 * @generated
 	 */
 	EAttribute getRepository_Owner();
 
 	/**
-	 * Returns the meta object for the attribute '{@link at.bestsolution.githubmgr.model.githubmgr.Repository#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see at.bestsolution.githubmgr.model.githubmgr.Repository#getName()
+	 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository#getName()
 	 * @see #getRepository()
 	 * @generated
 	 */
@@ -294,11 +294,11 @@ public interface BitbucketmgrPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.
+		 * The meta object literal for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.WorkspaceImpl <em>Workspace</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.WorkspaceImpl
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getWorkspace()
 		 * @generated
 		 */
 		EClass WORKSPACE = eINSTANCE.getWorkspace();
@@ -312,11 +312,11 @@ public interface BitbucketmgrPackage extends EPackage {
 		EReference WORKSPACE__PROJECT_LIST = eINSTANCE.getWorkspace_ProjectList();
 
 		/**
-		 * The meta object literal for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl <em>Project</em>}' class.
+		 * The meta object literal for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl <em>Project</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.ProjectImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getProject()
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.ProjectImpl
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getProject()
 		 * @generated
 		 */
 		EClass PROJECT = eINSTANCE.getProject();
@@ -346,11 +346,11 @@ public interface BitbucketmgrPackage extends EPackage {
 		EAttribute PROJECT__ICON = eINSTANCE.getProject_Icon();
 
 		/**
-		 * The meta object literal for the '{@link at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl <em>Repository</em>}' class.
+		 * The meta object literal for the '{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl <em>Repository</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.RepositoryImpl
-		 * @see at.bestsolution.githubmgr.model.githubmgr.impl.BitbucketmgrPackageImpl#getRepository()
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.RepositoryImpl
+		 * @see at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.BitbucketmgrPackageImpl#getRepository()
 		 * @generated
 		 */
 		EClass REPOSITORY = eINSTANCE.getRepository();

@@ -35,7 +35,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link at.bestsolution.githubmgr.model.githubmgr.impl.WorkspaceImpl#getProjectList <em>Project List</em>}</li>
+ *   <li>{@link at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl.WorkspaceImpl#getProjectList <em>Project List</em>}</li>
  * </ul>
  * </p>
  *
