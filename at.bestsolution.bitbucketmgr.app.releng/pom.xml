@@ -27,6 +27,18 @@
 		<module>../at.bestsolution.bitbucketmgr.app.feature</module>
 		<module>../at.bestsolution.bitbucketmgr.app.product</module>
 		<module>../at.bestsolution.bitbucketmgr.app.jemmy</module>
+		<module>../at.bestsolution.bitbucketmgr.app.jemmy.feature</module>
+		<module>../at.bestsolution.bitbucketmgr.core</module>
+		<module>../at.bestsolution.bitbucketmgr.core.services</module>
+		<module>../at.bestsolution.bitbucketmgr.model</module>
+		<module>../at.bestsolution.bitbucketmgr.services</module>
+		<module>../at.bestsolution.bitbucketmgr.services.mock</module>
+		<module>../at.bestsolution.bitbucketmgr.services.mock.feature</module>
+		<module>../at.bestsolution.bitbucketmgr.services.rest</module>
+		<module>../at.bestsolution.bitbucketmgr.services.rest.feature</module>
+		<module>../at.bestsolution.bitbucketmgr.ui</module>
+		<module>../at.bestsolution.bitbucketmgr.ui.controller</module>
+		<module>../at.bestsolution.bitbucketmgr.ui.handler</module>
 	</modules>
 
 	<repositories>
@@ -36,9 +48,14 @@
 			<url>http://download.eclipse.org/releases/juno</url>
 		</repository>
 		<repository>
+			<id>juno-patch</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/eclipse/updates/4.2</url>
+		</repository>
+		<repository>
 			<id>efxclipse-repo</id>
 			<layout>p2</layout>
-			<url>http://www.efxclipse.org/p2-repos/releases/latest</url>
+			<url>http://www.efxclipse.org/p2-repos/nightly/site/</url>
 		</repository>
 
 	</repositories>
