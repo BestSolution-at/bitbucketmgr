@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.githubmgr.services.mock.authentification">
-   <implementation class="at.bestsolution.githubmgr.services.mock.MockAuthentificationService"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.bitbucketmgr.services.mock.authentification">
+   <implementation class="at.bestsolution.bitbucketmgr.services.mock.MockAuthentificationService"/>
    <service>
-      <provide interface="at.bestsolution.githubmgr.services.AuthentificationService"/>
+      <provide interface="at.bestsolution.bitbucketmgr.services.AuthentificationService"/>
    </service>
 </scr:component>

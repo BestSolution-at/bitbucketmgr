@@ -26,7 +26,7 @@
 		</fx:resources>
 		
 		<fx:application id="fxApplication"
-								name="Github Manager"
+								name="Bitbucket Manager"
 								mainClass="org.eclipse.equinox.launcher.Main"
 								toolkit="swing"
 						
@@ -43,7 +43,7 @@
 			updatemode="background"
 			>
 			
-			<fx:info title="Github Manager" vendor=""/>
+			<fx:info title="Bitbucket Manager" vendor=""/>
 			<fx:application refid="fxApplication"/>
 			<fx:resources refid="appRes"/>
 		</fx:deploy>

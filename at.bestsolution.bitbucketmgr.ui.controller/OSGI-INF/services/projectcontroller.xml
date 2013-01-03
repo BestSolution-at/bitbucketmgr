@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.githubmgr.ui.controller.projectoverviewcontroller">
-   <implementation class="at.bestsolution.githubmgr.ui.controller.ProjectOverviewControllerFactory"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.bitbucketmgr.ui.controller.projectoverviewcontroller">
+   <implementation class="at.bestsolution.bitbucketmgr.ui.controller.ProjectOverviewControllerFactory"/>
    
-   <property name="service.context.key" type="String" value="at.bestsolution.githubmgr.ui.projectoverview.ProjectOverviewController"/>
+   <property name="service.context.key" type="String" value="at.bestsolution.bitbucketmgr.ui.projectoverview.ProjectOverviewController"/>
    <service>
       <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
    </service>

@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>Github Manager - jemmy tests</name>
-	<groupId>at.bestsolution.githubmgr</groupId>
-	<artifactId>at.bestsolution.githubmgr.app.jemmy</artifactId>
+	<name>Bitbucket Manager - jemmy tests</name>
+	<groupId>at.bestsolution.bitbucketmgr</groupId>
+	<artifactId>at.bestsolution.bitbucketmgr.app.jemmy</artifactId>
 	<packaging>eclipse-test-plugin</packaging>
 
 	<parent>
-		<groupId>at.bestsolution.githubmgr</groupId>
-		<artifactId>at.bestsolution.githubmgr.app.releng</artifactId>
-		<relativePath>../at.bestsolution.githubmgr.app.releng/pom.xml</relativePath>
+		<groupId>at.bestsolution.bitbucketmgr</groupId>
+		<artifactId>at.bestsolution.bitbucketmgr.app.releng</artifactId>
+		<relativePath>../at.bestsolution.bitbucketmgr.app.releng/pom.xml</relativePath>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
@@ -20,17 +20,17 @@
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<testSuite>at.bestsolution.githubmgr.app.jemmy</testSuite>
-					<testClass>at.bestsolution.githubmgr.app.jemmy.TestSuite</testClass>
+					<testSuite>at.bestsolution.bitbucketmgr.app.jemmy</testSuite>
+					<testClass>at.bestsolution.bitbucketmgr.app.jemmy.TestSuite</testClass>
 					<useUIHarness>false</useUIHarness>
 					<useUIThread>false</useUIThread>
-					<argLine>-Xms40m -Xmx512m -Defxclipse.osgi.hook.debug=true -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.githubmgr.app.product</argLine>
+					<argLine>-Xms40m -Xmx512m -Defxclipse.osgi.hook.debug=true -Dosgi.framework.extensions=at.bestsolution.efxclipse.runtime.osgi -Dtest.jemmy.product=at.bestsolution.bitbucketmgr.app.product</argLine>
 					<appArgLine>-consoleLog -nosplash</appArgLine>
 					<application>org.eclipse.pde.junit.runtime.coretestapplication</application>
 					<dependencies>
 						<dependency>
 							<type>eclipse-feature</type>
-							<artifactId>at.bestsolution.githubmgr.app.feature</artifactId>
+							<artifactId>at.bestsolution.bitbucketmgr.app.feature</artifactId>
 							<version>0.0.0</version>
 						</dependency>
 					</dependencies>

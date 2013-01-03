@@ -95,7 +95,7 @@ public class XMIWorkspaceModelProvider implements WorkspaceModelProvider {
 				return Status.OK_STATUS;
 			} catch (IOException e) {
 				logger.error("Unable to save resource.", e);
-				return new Status(IStatus.ERROR, "at.bestsolution.githubmgr.core.services", "Unable to save resource.");
+				return new Status(IStatus.ERROR, "at.bestsolution.bitbucketmgr.core.services", "Unable to save resource.");
 			}
 		}
 		return Status.OK_STATUS;

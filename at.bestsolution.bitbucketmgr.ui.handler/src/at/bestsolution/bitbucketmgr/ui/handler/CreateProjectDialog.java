@@ -27,7 +27,7 @@ public class CreateProjectDialog {
 		if( d.open() == ProjectDialog.OK_BUTTON ) {
 			Map<String, Object> map = new HashMap<>();
 			map.put("projectName", d.getName());
-			ParameterizedCommand pcmd = commandService.createCommand("at.bestsolution.githubmgr.app.command.project.create", map);
+			ParameterizedCommand pcmd = commandService.createCommand("at.bestsolution.bitbucketmgr.app.command.project.create", map);
 			handlerService.executeHandler(pcmd);
 		}
 	}
