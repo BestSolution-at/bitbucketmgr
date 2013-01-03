@@ -8,10 +8,10 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.model.githubmgr.impl;
+package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage;
-import at.bestsolution.githubmgr.model.githubmgr.Repository;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.bitbucketmgr.Repository;
 
 import org.eclipse.emf.common.notify.Notification;
 

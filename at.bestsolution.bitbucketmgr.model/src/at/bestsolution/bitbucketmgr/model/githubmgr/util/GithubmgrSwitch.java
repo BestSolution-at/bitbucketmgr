@@ -8,9 +8,9 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.model.githubmgr.util;
+package at.bestsolution.bitbucketmgr.model.githubmgr.util;
 
-import at.bestsolution.githubmgr.model.githubmgr.*;
+import at.bestsolution.bitbucketmgr.model.githubmgr.*;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;

@@ -8,11 +8,11 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.model.githubmgr.impl;
+package at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl;
 
-import at.bestsolution.githubmgr.model.githubmgr.GithubmgrPackage;
-import at.bestsolution.githubmgr.model.githubmgr.Project;
-import at.bestsolution.githubmgr.model.githubmgr.Repository;
+import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrPackage;
+import at.bestsolution.bitbucketmgr.model.githubmgr.Project;
+import at.bestsolution.bitbucketmgr.model.githubmgr.Repository;
 
 import java.util.Collection;
 

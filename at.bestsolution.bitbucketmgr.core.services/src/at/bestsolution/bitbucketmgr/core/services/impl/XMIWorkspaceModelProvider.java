@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.core.services.impl;
+package at.bestsolution.bitbucketmgr.core.services.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,9 +30,9 @@ import org.osgi.util.tracker.ServiceTracker;
 
 import at.bestsolution.efxclipse.runtime.core.log.Logger;
 import at.bestsolution.efxclipse.runtime.core.log.LoggerFactory;
-import at.bestsolution.githubmgr.core.services.WorkspaceModelProvider;
-import at.bestsolution.githubmgr.model.githubmgr.GithubmgrFactory;
-import at.bestsolution.githubmgr.model.githubmgr.Workspace;
+import at.bestsolution.bitbucketmgr.core.services.WorkspaceModelProvider;
+import at.bestsolution.bitbucketmgr.model.githubmgr.GithubmgrFactory;
+import at.bestsolution.bitbucketmgr.model.githubmgr.Workspace;
 
 public class XMIWorkspaceModelProvider implements WorkspaceModelProvider {
 	

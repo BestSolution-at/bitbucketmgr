@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.core.services;
+package at.bestsolution.bitbucketmgr.core.services;
 
 public interface ProgressService {
 	public <O,R> void execute(boolean fork, CallbackTask<O, R> task);

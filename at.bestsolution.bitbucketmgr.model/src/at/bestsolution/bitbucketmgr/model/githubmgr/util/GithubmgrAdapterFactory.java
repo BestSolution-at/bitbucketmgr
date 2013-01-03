@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.model.githubmgr.util;
+package at.bestsolution.bitbucketmgr.model.bitbucketmgr.util;
 
 import at.bestsolution.githubmgr.model.githubmgr.*;
 

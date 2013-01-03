@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.core.handler;
+package at.bestsolution.bitbucketmgr.core.handler;
 
 import javax.inject.Inject;
 import javax.inject.Named;

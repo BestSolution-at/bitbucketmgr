@@ -1,4 +1,4 @@
-package at.bestsolution.githubmgr.core;
+package at.bestsolution.bitbucketmgr.core;
 
 public class EventConstants {
 	public static final String ROOT_TOPIC = "githubmgr";

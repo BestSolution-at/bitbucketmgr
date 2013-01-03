@@ -12,4 +12,4 @@ Import-Package: org.eclipse.osgi.service.datalocation;version="1.3.0",
  org.osgi.util.tracker;version="1.5.1"
 Bundle-ActivationPolicy: lazy
 Service-Component: OSGI-INF/services/modelprovider.xml
-Export-Package: at.bestsolution.githubmgr.core.services
+Export-Package: at.bestsolution.bitbucketmgr.core.services

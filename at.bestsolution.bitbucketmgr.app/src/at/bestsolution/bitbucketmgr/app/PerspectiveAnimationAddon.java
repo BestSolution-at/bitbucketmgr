@@ -8,7 +8,7 @@
  * Contributors:
  *     Tom Schindl<tom.schindl@bestsolution.at> - initial API and implementation
  *******************************************************************************/
-package at.bestsolution.githubmgr.app;
+package at.bestsolution.bitbucketmgr.app;
 
 import java.util.Collections;
 import java.util.HashMap;

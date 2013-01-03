@@ -7,9 +7,9 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Export-Package: at.bestsolution.githubmgr.model.githubmgr,
- at.bestsolution.githubmgr.model.githubmgr.impl,
- at.bestsolution.githubmgr.model.githubmgr.util
+Export-Package: at.bestsolution.bitbucketmgr.model.githubmgr,
+ at.bestsolution.bitbucketmgr.model.bitbucketmgr.impl,
+ at.bestsolution.bitbucketmgr.model.bitbucketmgr.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport
 Bundle-ActivationPolicy: lazy
